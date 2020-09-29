@@ -8,3 +8,17 @@ Stronger Baselines for Grammatical Error Correction Using a Pretrained Encoder-D
 - multilingual BART GEC
 - MASS GEC
 
+## License
+See the LICENSE file.
+
+## Citation
+Please cite as:
+
+```
+@inproceedings{katsumata2020AACL,
+    title = {Stronger Baselines for Grammatical Error Correction Using a Pretrained Encoder-Decoder Model},
+    author = {Satoru Katsumata and Mamoru Komachi},
+    booktitle = {Proceedings of AACL-IJCNLP 2020}
+    year = {2020},
+    }
+```
