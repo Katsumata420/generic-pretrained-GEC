@@ -56,3 +56,20 @@ bash preprocess_mbart.sh /path/to/sp_data ${lang}_gec
 8. Translate test data using the fine-tuned model.
 - `bash translate_mbart.sh /path/to/result $GPUID /path/to/model /path/to/data-bin $lang`
 9. Tokenized the generated text with the tokenizer.
+
+## Fine-tuned Models
+### Czech
+- fined-models (fine-tuned in April 2023.)
+  - https://huggingface.co/Katsumata420/mBART-cz-GEC/blob/main/checkpoint_best.pt
+- data-bin and test output
+  - https://drive.google.com/drive/folders/1oECT9q06j9r0whKmp8cqgpzvXINFutoX?usp=share_link
+  - m2score for this test output
+    - pricision: 0.7575
+    - recall: 0.6141
+    - F0.5: 0.7237
+
+### German
+TBA
+
+### Russian
+TBA
