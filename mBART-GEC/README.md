@@ -58,6 +58,9 @@ bash preprocess_mbart.sh /path/to/sp_data ${lang}_gec
 9. Tokenized the generated text with the tokenizer.
 
 ## Fine-tuned Models
+These fine-tuned models can be used to perform for each language.  
+Use these models from step 8 onward in "How To Run".
+
 ### Czech
 - fined-models (fine-tuned in April 2023.)
   - https://huggingface.co/Katsumata420/mBART-cz-GEC/blob/main/checkpoint_best.pt
